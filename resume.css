@@ -1,0 +1,87 @@
+/*CSS for Final Project
+Trevor Munroe
+4/28/23
+*/
+
+/* Global Styles*/
+
+/*assistance from W3 was used for gradient*/
+
+body {
+    background-image: linear-gradient(to bottom, #050310, #090830);
+  background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    /*header background*/
+    background-image: url(banner-1176676_960_720.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    /*text properties*/
+    color: #ffffff;
+    line-height: 400%;
+    text-indent: 1em;
+}
+
+h1{
+    margin-bottom: 0;
+    font-family:georgia,"Times New Roman", serif;
+}
+    /*paragraph color*/
+p {
+    color: #ffffff;
+}
+    /*skills color*/
+ul {
+    color: #ffffff;
+}
+    /*navigation color*/
+nav {
+    
+    background-color: #050310;
+    font-weight: bold;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+    /*heading 2 color*/
+h2 {
+    color: #ffffff;
+    font-family:georgia,"Times New Roman", serif;
+}
+    /*heading 3 color*/
+h3{ 
+    font-family:georgia,"Times New Roman", serif;
+color:#ffffff
+}
+    /*description list color*/
+    dt {
+    color: #ffffff;
+
+}
+
+dl{
+    color: #ffffff;
+}
+
+/*copyright styles*/
+
+footer{
+    font-family:georgia,"Times New Roman", serif;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/*classes and ids*/
+
+
+#contact{
+    font-size:90%;
+}
+
